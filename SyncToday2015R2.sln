@@ -37,6 +37,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SyncToday2015R2.Tests", "te
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sync.Today.Core", "src\Sync.Today.Core\Sync.Today.Core.fsproj", "{FCC91C62-6603-4250-8275-8209082A2005}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sync.Today.Util", "src\Sync.Today.Util\Sync.Today.Util.fsproj", "{2C594A55-7245-470B-9040-1CB8187824D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{FCC91C62-6603-4250-8275-8209082A2005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCC91C62-6603-4250-8275-8209082A2005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCC91C62-6603-4250-8275-8209082A2005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C594A55-7245-470B-9040-1CB8187824D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C594A55-7245-470B-9040-1CB8187824D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C594A55-7245-470B-9040-1CB8187824D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C594A55-7245-470B-9040-1CB8187824D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

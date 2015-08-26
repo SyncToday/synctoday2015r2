@@ -17,8 +17,13 @@ module Interfaces =
     type IAdapter =
         inherit( INamed )
 
-    /// An user of an application
+    /// Registered login information (real or technical user) that can be used to access the application (IService)
     ///
     type IAccount = 
+        inherit( INamed )
+
+    /// Real user or device the information belong to
+    ///
+    type IConsumer = 
         inherit( INamed )
 
